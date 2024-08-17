@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/topnave.css">
+    <script src="./js/topnav.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/tabela-nutricional.css">
+    <title>PROJETO FINAL: SITE BS5</title>
+</head>
+<body>
+    <div class="container-fluid"> <!--Header-->
+        <div class="row">
+            <div class="col-sm-12" style="background: FBFCFC;">
+                <center>
+                    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                </center>
+            </div>
+        </div>
+        <div class="row" style="height: auto;"> <!--Navbar-->
+            <div class="col-sm-12" style="background: #F263C0">
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="menu.html">Menu Loja</a>
+                    <a href="catalogo-encomendas.html">Catálogo Encomendas</a>
+                    <a href="encomendas.html">Encomendas</a>
+                    <a href="linha-fitness.html">Linha Fitness</a>
+                    <a href="tabela-nutricional.html">Tabela Nutricional</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container"> <!---Content-1-->
+        <div class="row row-tabela"  style="height: auto;">
+            <div class="col-sm-4 nutricional-class">
+                <p>VALIDADE 5 DIAS SOB REFRIGERAÇÃO.</p>
+                <p>PRODUZIDOS ARTESANALMENTE E SEM ADIÇÃO DE CONSERVANTES.</p>
+                <p>PODE HAVER CONTAMINAÇÃO CRUZADA.</p>
+            </div> 
+            <div class="col-sm-4 ingredients-class">
+                <p><u>Pão De Mel:</u> Ovos, Mel, Óleo De Coco, Açúcar De Coco, Farinha De Amêndoas, Farinha De Aveia, Farinha De Coco, Chocolate Branco, Leite De Castanha, Fermento Bicarbonato, Cravo, Canela, Baunilha.</p>
+                <p><u>Recheio:</u> Leite De Coco Em Pó, Eritritol, Leite De Castanhas E Açúcar De Coco.</p>
+                <p><u>Alfajor Oreo:</u> Farinha De Arroz Integral, Farinha De Linhaça Dourada, Farinha Aveia, Farinha De  Amêndoas, Fécula De Batata, Bicarbonato, Essência De Baunilha, Ovos, Óleo De Coco, Cacau Dark, Chocolate Branco, Eritritol, Leite De Coco Em Pó Vegano.</p>
+                <p><u>Alfajor Doce De Leite:</u> Farinha De Arroz Integral, Farinha De Amêndoas, Farinha  De Aveia, Farinha De Linhaça Dourada, Fécula De Batata, Bicarbonato, Ovos, Óleo De Coco, Baunilha, Chocolate 50%, Chocolate Branco, Leite De Castanhas, Açúcar De Coco, Leite De Coco Em Pó Vegano, Eritritol.</p>
+                <p><u>Blondie Square:</u>  Farinha De Aveia, Farinha De Amêndoas, Eritritol, Óleo De Coco, Ovos Limão Chocolate Branco.</p>
+                <p><u>Brigadeiros:</u></p>
+                <p>Chocolate Com Raspas: Chocolate 50% Zero, Eritritol, Leite De Coco Em Pó Vegano.</p>
+                <p>Chocolate Com Pistache: Chocolate 50% Zero, Eritritol, Leite De Coco Em Pó Vegano, Pistache.</p>
+                <p>Doce De Leite Com Amêndoas: Chocolate Branco, Eritritol, Açúcar De Coco, Leite De Coco Em Pó Vegano, Leite De Castanhas, Amêndoas.</p>
+            </div>    
+            <div class="col-sm-4 table-class">
+                <table class="table">
+                    <caption>Cookie Funcional de Chocolate Branco</caption>
+                    <tr>
+                      <th>Nutriente</th>
+                      <th>Quantidade por Porção (30g)</th>
+                      <th>% VD</th>
+                    </tr>
+                    <tr>
+                      <td>Calorias</td>
+                      <td>90 kcal</td>
+                      <td>4.5%</td>
+                    </tr>
+                    <tr>
+                      <td>Carboidratos</td>
+                      <td>12 g</td>
+                      <td>4%</td>
+                    </tr>
+                    <tr>
+                      <td>Proteínas</td>
+                      <td>3 g</td>
+                      <td>6%</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Totais</td>
+                      <td>4 g</td>
+                      <td>6%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Saturadas</td>
+                      <td>1.5 g</td>
+                      <td>7%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Trans</td>
+                      <td>0 g</td>
+                      <td>0%</td>
+                    </tr>
+                    <tr>
+                      <td>Fibras</td>
+                      <td>2 g</td>
+                      <td>8%</td>
+                    </tr>
+                    <tr>
+                      <td>Sódio</td>
+                      <td>50 mg</td>
+                      <td>2%</td>
+                    </tr>
+                  </table>
+                  <table class="table">
+                    <caption>Brownie Square Chocolate Branco</caption>
+                    <tr>
+                      <th>Nutriente</th>
+                      <th>Quantidade por Porção (36g)</th>
+                      <th>% VD*</th>
+                    </tr>
+                    <tr>
+                      <td>Calorias</td>
+                      <td>127,59 kcal</td>
+                      <td>6,4%</td>
+                    </tr>
+                    <tr>
+                      <td>Carboidratos</td>
+                      <td>23,25 g</td>
+                      <td>7,7%</td>
+                    </tr>
+                    <tr>
+                      <td>Proteínas</td>
+                      <td>1,47 g</td>
+                      <td>2,9%</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Totais</td>
+                      <td>3,23 g</td>
+                      <td>5,9%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Saturadas</td>
+                      <td>1,13 g</td>
+                      <td>5,1%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Trans</td>
+                      <td>0,00 g</td>
+                      <td>0%</td>
+                    </tr>
+                    <tr>
+                      <td>Fibras</td>
+                      <td>0,13 g</td>
+                      <td>0,5%</td>
+                    </tr>
+                    <tr>
+                      <td>Sódio</td>
+                      <td>37,81 mg</td>
+                      <td>1,6%</td>
+                    </tr>
+                  </table>
+                  <table class="table">
+                    <caption>Marmita Chocolate Preto e Branco Zero Açúcar</caption>
+                    <tr>
+                      <th>Nutriente</th>
+                      <th>Quantidade por Porção (50g)</th>
+                      <th>% VD*</th>
+                    </tr>
+                    <tr>
+                      <td>Calorias</td>
+                      <td>152 kcal</td>
+                      <td>7,6%</td>
+                    </tr>
+                    <tr>
+                      <td>Carboidratos</td>
+                      <td>22 g</td>
+                      <td>7%</td>
+                    </tr>
+                    <tr>
+                      <td>Proteínas</td>
+                      <td>2 g</td>
+                      <td>4%</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Totais</td>
+                      <td>8 g</td>
+                      <td>14,5%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Saturadas</td>
+                      <td>5 g</td>
+                      <td>22,7%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Trans</td>
+                      <td>0 g</td>
+                      <td>0%</td>
+                    </tr>
+                    <tr>
+                      <td>Fibras</td>
+                      <td>1 g</td>
+                      <td>4%</td>
+                    </tr>
+                    <tr>
+                      <td>Sódio</td>
+                      <td>45 mg</td>
+                      <td>1,9%</td>
+                    </tr>
+                  </table>
+                  <table class="table">
+                    <caption>Mini Pie de Doce de Leite com Brigadeiro Sem Açúcar</caption>
+                    <tr>
+                      <th>Nutriente</th>
+                      <th>Quantidade por Porção (60g)</th>
+                      <th>% VD*</th>
+                    </tr>
+                    <tr>
+                      <td>Calorias</td>
+                      <td>134,84 kcal</td>
+                      <td>6,74%</td>
+                    </tr>
+                    <tr>
+                      <td>Carboidratos</td>
+                      <td>4,72 g</td>
+                      <td>1,57%</td>
+                    </tr>
+                    <tr>
+                      <td>Proteínas</td>
+                      <td>0,75 g</td>
+                      <td>1,00%</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Totais</td>
+                      <td>3,01 g</td>
+                      <td>5,47%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Saturadas</td>
+                      <td>2,00 g</td>
+                      <td>9,09%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Trans</td>
+                      <td>0,00 g</td>
+                      <td>0%</td>
+                    </tr>
+                    <tr>
+                      <td>Fibras</td>
+                      <td>0,02 g</td>
+                      <td>0,08%</td>
+                    </tr>
+                    <tr>
+                      <td>Sódio</td>
+                      <td>12,86 mg</td>
+                      <td>0,54%</td>
+                    </tr>
+                  </table>
+                  <table class="table">
+                    <caption>Cookie Crunchy Sem Açúcar</caption>
+                    <tr>
+                      <th>Nutriente</th>
+                      <th>Quantidade por Porção (30g)</th>
+                      <th>% VD*</th>
+                    </tr>
+                    <tr>
+                      <td>Calorias</td>
+                      <td>103 kcal</td>
+                      <td>5%</td>
+                    </tr>
+                    <tr>
+                      <td>Carboidratos</td>
+                      <td>13 g</td>
+                      <td>4%</td>
+                    </tr>
+                    <tr>
+                      <td>Proteínas</td>
+                      <td>2,5 g</td>
+                      <td>5%</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Totais</td>
+                      <td>4,5 g</td>
+                      <td>7%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Saturadas</td>
+                      <td>1,1 g</td>
+                      <td>5%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Trans</td>
+                      <td>0 g</td>
+                      <td>0%</td>
+                    </tr>
+                    <tr>
+                      <td>Fibras</td>
+                      <td>2,7 g</td>
+                      <td>11%</td>
+                    </tr>
+                    <tr>
+                      <td>Sódio</td>
+                      <td>63 mg</td>
+                      <td>3%</td>
+                    </tr>
+                  </table>
+                  <table class="table">
+                    <caption>Marmita de Avelã com Açúcar de Coco</caption>
+                    <tr>
+                      <th>Nutriente</th>
+                      <th>Quantidade por Porção (50g)</th>
+                      <th>% VD*</th>
+                    </tr>
+                    <tr>
+                      <td>Calorias</td>
+                      <td>250 kcal</td>
+                      <td>12,5%</td>
+                    </tr>
+                    <tr>
+                      <td>Carboidratos</td>
+                      <td>18 g</td>
+                      <td>6%</td>
+                    </tr>
+                    <tr>
+                      <td>Proteínas</td>
+                      <td>4 g</td>
+                      <td>8%</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Totais</td>
+                      <td>16 g</td>
+                      <td>29%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Saturadas</td>
+                      <td>3 g</td>
+                      <td>15%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Trans</td>
+                      <td>0 g</td>
+                      <td>0%</td>
+                    </tr>
+                    <tr>
+                      <td>Fibras</td>
+                      <td>3 g</td>
+                      <td>12%</td>
+                    </tr>
+                    <tr>
+                      <td>Sódio</td>
+                      <td>10 mg</td>
+                      <td>0,4%</td>
+                    </tr>
+                  </table>
+                  <table class="table">
+                    <caption>Brownie Square de Chocolate Preto</caption>
+                    <tr>
+                      <th>Nutriente</th>
+                      <th>Quantidade por Porção (60g)</th>
+                      <th>% VD*</th>
+                    </tr>
+                    <tr>
+                      <td>Calorias</td>
+                      <td>93 kcal</td>
+                      <td>4,65%</td>
+                    </tr>
+                    <tr>
+                      <td>Carboidratos</td>
+                      <td>15,3 g</td>
+                      <td>5,1%</td>
+                    </tr>
+                    <tr>
+                      <td>Proteínas</td>
+                      <td>1,9 g</td>
+                      <td>2,53%</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Totais</td>
+                      <td>2,8 g</td>
+                      <td>4,18%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Saturadas</td>
+                      <td>1,3 g</td>
+                      <td>6,5%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Trans</td>
+                      <td>0 g</td>
+                      <td>0%</td>
+                    </tr>
+                    <tr>
+                      <td>Fibras</td>
+                      <td>2,2 g</td>
+                      <td>8,8%</td>
+                    </tr>
+                    <tr>
+                      <td>Sódio</td>
+                      <td>8 mg</td>
+                      <td>0,33%</td>
+                    </tr>
+                  </table>
+                  <table class="table">
+                    <caption>Marmita Chocolate Preto e Branco Zero Açúcar</caption>
+                    <tr>
+                      <th>Nutriente</th>
+                      <th>Quantidade por Porção (50g)</th>
+                      <th>% VD*</th>
+                    </tr>
+                    <tr>
+                      <td>Calorias</td>
+                      <td>152 kcal</td>
+                      <td>7,6%</td>
+                    </tr>
+                    <tr>
+                      <td>Carboidratos</td>
+                      <td>22 g</td>
+                      <td>7%</td>
+                    </tr>
+                    <tr>
+                      <td>Proteínas</td>
+                      <td>2 g</td>
+                      <td>4%</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Totais</td>
+                      <td>8 g</td>
+                      <td>14,5%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Saturadas</td>
+                      <td>5 g</td>
+                      <td>22,7%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Trans</td>
+                      <td>0 g</td>
+                      <td>0%</td>
+                    </tr>
+                    <tr>
+                      <td>Fibras</td>
+                      <td>1 g</td>
+                      <td>4%</td>
+                    </tr>
+                    <tr>
+                      <td>Sódio</td>
+                      <td>45 mg</td>
+                      <td>1,9%</td>
+                    </tr>
+                  </table>
+                  <table class="table">
+                    <caption>Marmita de Avelã Zero Açúcar</caption>
+                    <tr>
+                      <th>Nutriente</th>
+                      <th>Quantidade por Porção (50g)</th>
+                      <th>% VD*</th>
+                    </tr>
+                    <tr>
+                      <td>Calorias</td>
+                      <td>224 kcal</td>
+                      <td>11%</td>
+                    </tr>
+                    <tr>
+                      <td>Carboidratos</td>
+                      <td>29 g</td>
+                      <td>10%</td>
+                    </tr>
+                    <tr>
+                      <td>Proteínas</td>
+                      <td>5,8 g</td>
+                      <td>8%</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Totais</td>
+                      <td>9,6 g</td>
+                      <td>17%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Saturadas</td>
+                      <td>5,5 g</td>
+                      <td>25%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Trans</td>
+                      <td>0 g</td>
+                      <td>0%</td>
+                    </tr>
+                    <tr>
+                      <td>Fibras</td>
+                      <td>12 g</td>
+                      <td>49%</td>
+                    </tr>
+                    <tr>
+                      <td>Sódio</td>
+                      <td>138 mg</td>
+                      <td>6%</td>
+                    </tr>
+                  </table>
+                  <table class="table">
+                    <caption>Mini Pie de Brigadeiro de Pistache com Geléia de Framboesa</caption>
+                    <tr>
+                      <th>Nutriente</th>
+                      <th>Quantidade por Porção (60g)</th>
+                      <th>% VD*</th>
+                    </tr>
+                    <tr>
+                      <td>Calorias</td>
+                      <td>61,78 kcal</td>
+                      <td>3,09%</td>
+                    </tr>
+                    <tr>
+                      <td>Carboidratos</td>
+                      <td>8,33 g</td>
+                      <td>2,77%</td>
+                    </tr>
+                    <tr>
+                      <td>Proteínas</td>
+                      <td>0,75 g</td>
+                      <td>1%</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Totais</td>
+                      <td>1,01 g</td>
+                      <td>1,84%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Saturadas</td>
+                      <td>0,55 g</td>
+                      <td>2,5%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Trans</td>
+                      <td>0 g</td>
+                      <td>0%</td>
+                    </tr>
+                    <tr>
+                      <td>Fibras</td>
+                      <td>0,02 g</td>
+                      <td>0,08%</td>
+                    </tr>
+                    <tr>
+                      <td>Sódio</td>
+                      <td>12,86 mg</td>
+                      <td>0,54%</td>
+                    </tr>
+                  </table>
+                  <table class="table">
+                    <caption>Brownie in Box Avelã Fitness com Açúcar de Coco</caption>
+                    <tr>
+                      <th>Nutriente</th>
+                      <th>Quantidade por Porção (50g)</th>
+                      <th>% VD*</th>
+                    </tr>
+                    <tr>
+                      <td>Calorias</td>
+                      <td>210 kcal</td>
+                      <td>10,5%</td>
+                    </tr>
+                    <tr>
+                      <td>Carboidratos</td>
+                      <td>19 g</td>
+                      <td>6,3%</td>
+                    </tr>
+                    <tr>
+                      <td>Proteínas</td>
+                      <td>2,8 g</td>
+                      <td>5,6%</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Totais</td>
+                      <td>9,6 g</td>
+                      <td>17,5%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Saturadas</td>
+                      <td>5,5 g</td>
+                      <td>25%</td>
+                    </tr>
+                    <tr>
+                      <td>Gord. Trans</td>
+                      <td>0 g</td>
+                      <td>0%</td>
+                    </tr>
+                    <tr>
+                      <td>Fibras</td>
+                      <td>12 g</td>
+                      <td>48%</td>
+                    </tr>
+                    <tr>
+                      <td>Sódio</td>
+                      <td>138 mg</td>
+                      <td>5,75%</td>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+    </div>
+    <div class="conteiner-fluid" style="background-color: #FBFCFC;"> <!--Footer-->
+        <div class="row" style="height: auto;">
+            <div class="col-sm-12 p-3" style="background-color: #FBFCFC; border-top: 8px solid #BDCFF2;">
+                <center>
+                    <a href="https://www.facebook.com/Thainadasilva/" class="icon-link">
+                        <i class="fa fa-facebook-square" style="font-size:48px;color:#F263C0"></i>
+                    </a>
+                    <a href="https://https://wa.me/+5551999802061" class="icon-link">
+                        <i class="fa fa-whatsapp" style="font-size:48px;color:#F263C0"></i>
+                    </a>
+                    <a href="https://www.instagram.com/thaina_tuanne/" class="icon-link">
+                        <i class="fa fa-instagram" style="font-size:48px;color:#F263C0"></i>
+                    </a>
+                </center>
+            </div>
+        </div>
+        <div class="row" style="height: auto;"> <!--Footer 2-->
+            <div class="col-sm-12 footer-class" style="background-color: #A0E3F2;">
+                    <h4 class="footer-element">IVOTI</h4>
+                    <p class="footer-element">AVENIDA PRESIDENTE LUCENA, 990, VISTA ALEGRE</p>
+                    <p class="footer-element">TERÇA, QUARTA, QUINTA E SEXTA</p>
+                    <p class="footer-element">12:00 - 19:00</p>
+                    <p class="footer-element">SÁBADO, DOMINGO</p>
+                    <p class="footer-element">13:00 - 18:00</p>
+                    <p class="footer-element">SEGUNDA - FECHADO</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
